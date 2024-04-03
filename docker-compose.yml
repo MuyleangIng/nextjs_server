@@ -1,0 +1,9 @@
+version: '3'
+services:
+  naikim:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - 50002:3000
