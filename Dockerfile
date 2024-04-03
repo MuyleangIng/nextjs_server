@@ -14,7 +14,3 @@ COPY --from=build /app ./
 RUN npm install -g serve
 EXPOSE 3000
 CMD ["npm", "start"]
-
-
-
-docker-compose.yml
